@@ -1,0 +1,832 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		363971767F5276E01DA79668 /* Pods_Objective_C_RadioStations_Objective_C_RadioStationsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13549E3F8B066AD54165F25B /* Pods_Objective_C_RadioStations_Objective_C_RadioStationsUITests.framework */; };
+		65693FE207C8D6F9F547BEE9 /* Pods_Objective_C_RadioStationsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE3FA125B10FC12D01D0464 /* Pods_Objective_C_RadioStationsTests.framework */; };
+		D6341EB42CB40732006E3E5A /* ViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6341EB22CB40732006E3E5A /* ViewCell.m */; };
+		D6341EB52CB40732006E3E5A /* ViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6341EB32CB40732006E3E5A /* ViewCell.xib */; };
+		D6341EB82CB409D7006E3E5A /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6341EB72CB409D7006E3E5A /* PlayerViewController.m */; };
+		D6A0FD0F2CB2EF7300C22F28 /* RadioStationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A0FD0E2CB2EF7300C22F28 /* RadioStationModel.m */; };
+		D6A0FD142CB2F9F200C22F28 /* Services.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A0FD132CB2F9F200C22F28 /* Services.m */; };
+		D6A0FD182CB3204D00C22F28 /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A0FD172CB3204D00C22F28 /* ViewModel.m */; };
+		D6A7B3A12CB2CDC6004A1F17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A7B3A02CB2CDC6004A1F17 /* AppDelegate.m */; };
+		D6A7B3A42CB2CDC6004A1F17 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A7B3A32CB2CDC6004A1F17 /* SceneDelegate.m */; };
+		D6A7B3A72CB2CDC6004A1F17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A7B3A62CB2CDC6004A1F17 /* ViewController.m */; };
+		D6A7B3AA2CB2CDC6004A1F17 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D6A7B3A92CB2CDC6004A1F17 /* Base */; };
+		D6A7B3AC2CB2CDC8004A1F17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6A7B3AB2CB2CDC8004A1F17 /* Assets.xcassets */; };
+		D6A7B3AF2CB2CDC8004A1F17 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D6A7B3AE2CB2CDC8004A1F17 /* Base */; };
+		D6A7B3B22CB2CDC8004A1F17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A7B3B12CB2CDC8004A1F17 /* main.m */; };
+		D6A7B3BC2CB2CDC8004A1F17 /* Objective_C_RadioStationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A7B3BB2CB2CDC8004A1F17 /* Objective_C_RadioStationsTests.m */; };
+		D6A7B3C62CB2CDC8004A1F17 /* Objective_C_RadioStationsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A7B3C52CB2CDC8004A1F17 /* Objective_C_RadioStationsUITests.m */; };
+		D6A7B3C82CB2CDC8004A1F17 /* Objective_C_RadioStationsUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A7B3C72CB2CDC8004A1F17 /* Objective_C_RadioStationsUITestsLaunchTests.m */; };
+		F8721974F07ACBF848A83867 /* Pods_Objective_C_RadioStations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C2AC42FEC56518BFAD4F74 /* Pods_Objective_C_RadioStations.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6A7B3B82CB2CDC8004A1F17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6A7B3942CB2CDC6004A1F17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6A7B39B2CB2CDC6004A1F17;
+			remoteInfo = "Objective-C-RadioStations";
+		};
+		D6A7B3C22CB2CDC8004A1F17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6A7B3942CB2CDC6004A1F17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6A7B39B2CB2CDC6004A1F17;
+			remoteInfo = "Objective-C-RadioStations";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13549E3F8B066AD54165F25B /* Pods_Objective_C_RadioStations_Objective_C_RadioStationsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Objective_C_RadioStations_Objective_C_RadioStationsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B6CF1EECB57E93F7BC0403B /* Pods-Objective-C-RadioStationsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Objective-C-RadioStationsTests.debug.xcconfig"; path = "Target Support Files/Pods-Objective-C-RadioStationsTests/Pods-Objective-C-RadioStationsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		445C8774D392E1354C4DDFC8 /* Pods-Objective-C-RadioStationsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Objective-C-RadioStationsTests.release.xcconfig"; path = "Target Support Files/Pods-Objective-C-RadioStationsTests/Pods-Objective-C-RadioStationsTests.release.xcconfig"; sourceTree = "<group>"; };
+		B24EC061651AC8F5CBF0ABCF /* Pods-Objective-C-RadioStations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Objective-C-RadioStations.release.xcconfig"; path = "Target Support Files/Pods-Objective-C-RadioStations/Pods-Objective-C-RadioStations.release.xcconfig"; sourceTree = "<group>"; };
+		C8D037BB74568E6926CF969C /* Pods-Objective-C-RadioStations-Objective-C-RadioStationsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Objective-C-RadioStations-Objective-C-RadioStationsUITests.release.xcconfig"; path = "Target Support Files/Pods-Objective-C-RadioStations-Objective-C-RadioStationsUITests/Pods-Objective-C-RadioStations-Objective-C-RadioStationsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D60EEC5F2CB3FDF300338EFF /* Haneke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Haneke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6341EB12CB40732006E3E5A /* ViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewCell.h; sourceTree = "<group>"; };
+		D6341EB22CB40732006E3E5A /* ViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewCell.m; sourceTree = "<group>"; };
+		D6341EB32CB40732006E3E5A /* ViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewCell.xib; sourceTree = "<group>"; };
+		D6341EB62CB409D7006E3E5A /* PlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		D6341EB72CB409D7006E3E5A /* PlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		D6A0FD0D2CB2EF7300C22F28 /* RadioStationModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadioStationModel.h; sourceTree = "<group>"; };
+		D6A0FD0E2CB2EF7300C22F28 /* RadioStationModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadioStationModel.m; sourceTree = "<group>"; };
+		D6A0FD122CB2F9F200C22F28 /* Services.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Services.h; sourceTree = "<group>"; };
+		D6A0FD132CB2F9F200C22F28 /* Services.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Services.m; sourceTree = "<group>"; };
+		D6A0FD162CB3204D00C22F28 /* ViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
+		D6A0FD172CB3204D00C22F28 /* ViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewModel.m; sourceTree = "<group>"; };
+		D6A7B39C2CB2CDC6004A1F17 /* Objective-C-RadioStations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C-RadioStations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6A7B39F2CB2CDC6004A1F17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6A7B3A02CB2CDC6004A1F17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6A7B3A22CB2CDC6004A1F17 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D6A7B3A32CB2CDC6004A1F17 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D6A7B3A52CB2CDC6004A1F17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6A7B3A62CB2CDC6004A1F17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6A7B3A92CB2CDC6004A1F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6A7B3AB2CB2CDC8004A1F17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6A7B3AE2CB2CDC8004A1F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6A7B3B02CB2CDC8004A1F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6A7B3B12CB2CDC8004A1F17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6A7B3B72CB2CDC8004A1F17 /* Objective-C-RadioStationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objective-C-RadioStationsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6A7B3BB2CB2CDC8004A1F17 /* Objective_C_RadioStationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objective_C_RadioStationsTests.m; sourceTree = "<group>"; };
+		D6A7B3C12CB2CDC8004A1F17 /* Objective-C-RadioStationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objective-C-RadioStationsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6A7B3C52CB2CDC8004A1F17 /* Objective_C_RadioStationsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objective_C_RadioStationsUITests.m; sourceTree = "<group>"; };
+		D6A7B3C72CB2CDC8004A1F17 /* Objective_C_RadioStationsUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objective_C_RadioStationsUITestsLaunchTests.m; sourceTree = "<group>"; };
+		DB234A582EF8E7C87224A2C3 /* Pods-Objective-C-RadioStations-Objective-C-RadioStationsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Objective-C-RadioStations-Objective-C-RadioStationsUITests.debug.xcconfig"; path = "Target Support Files/Pods-Objective-C-RadioStations-Objective-C-RadioStationsUITests/Pods-Objective-C-RadioStations-Objective-C-RadioStationsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEE3FA125B10FC12D01D0464 /* Pods_Objective_C_RadioStationsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Objective_C_RadioStationsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09DA5185015449AA6B4FEAD /* Pods-Objective-C-RadioStations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Objective-C-RadioStations.debug.xcconfig"; path = "Target Support Files/Pods-Objective-C-RadioStations/Pods-Objective-C-RadioStations.debug.xcconfig"; sourceTree = "<group>"; };
+		F7C2AC42FEC56518BFAD4F74 /* Pods_Objective_C_RadioStations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Objective_C_RadioStations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6A7B3992CB2CDC6004A1F17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8721974F07ACBF848A83867 /* Pods_Objective_C_RadioStations.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6A7B3B42CB2CDC8004A1F17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65693FE207C8D6F9F547BEE9 /* Pods_Objective_C_RadioStationsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6A7B3BE2CB2CDC8004A1F17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363971767F5276E01DA79668 /* Pods_Objective_C_RadioStations_Objective_C_RadioStationsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24986EB937E1DDE6E26079E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D60EEC5F2CB3FDF300338EFF /* Haneke.framework */,
+				F7C2AC42FEC56518BFAD4F74 /* Pods_Objective_C_RadioStations.framework */,
+				13549E3F8B066AD54165F25B /* Pods_Objective_C_RadioStations_Objective_C_RadioStationsUITests.framework */,
+				DEE3FA125B10FC12D01D0464 /* Pods_Objective_C_RadioStationsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2999E6A8C5E5FB5EBA1EAE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F09DA5185015449AA6B4FEAD /* Pods-Objective-C-RadioStations.debug.xcconfig */,
+				B24EC061651AC8F5CBF0ABCF /* Pods-Objective-C-RadioStations.release.xcconfig */,
+				DB234A582EF8E7C87224A2C3 /* Pods-Objective-C-RadioStations-Objective-C-RadioStationsUITests.debug.xcconfig */,
+				C8D037BB74568E6926CF969C /* Pods-Objective-C-RadioStations-Objective-C-RadioStationsUITests.release.xcconfig */,
+				2B6CF1EECB57E93F7BC0403B /* Pods-Objective-C-RadioStationsTests.debug.xcconfig */,
+				445C8774D392E1354C4DDFC8 /* Pods-Objective-C-RadioStationsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D6A0FD102CB2EF7700C22F28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6A0FD0D2CB2EF7300C22F28 /* RadioStationModel.h */,
+				D6A0FD0E2CB2EF7300C22F28 /* RadioStationModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D6A0FD112CB2F1C500C22F28 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D6A0FD122CB2F9F200C22F28 /* Services.h */,
+				D6A0FD132CB2F9F200C22F28 /* Services.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D6A0FD152CB31E7600C22F28 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D6A0FD162CB3204D00C22F28 /* ViewModel.h */,
+				D6A0FD172CB3204D00C22F28 /* ViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D6A0FD192CB3215C00C22F28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D6A7B3A52CB2CDC6004A1F17 /* ViewController.h */,
+				D6A7B3A62CB2CDC6004A1F17 /* ViewController.m */,
+				D6341EB12CB40732006E3E5A /* ViewCell.h */,
+				D6341EB22CB40732006E3E5A /* ViewCell.m */,
+				D6341EB32CB40732006E3E5A /* ViewCell.xib */,
+				D6341EB62CB409D7006E3E5A /* PlayerViewController.h */,
+				D6341EB72CB409D7006E3E5A /* PlayerViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D6A7B3932CB2CDC6004A1F17 = {
+			isa = PBXGroup;
+			children = (
+				D6A7B39E2CB2CDC6004A1F17 /* Objective-C-RadioStations */,
+				D6A7B3BA2CB2CDC8004A1F17 /* Objective-C-RadioStationsTests */,
+				D6A7B3C42CB2CDC8004A1F17 /* Objective-C-RadioStationsUITests */,
+				D6A7B39D2CB2CDC6004A1F17 /* Products */,
+				A2999E6A8C5E5FB5EBA1EAE1 /* Pods */,
+				24986EB937E1DDE6E26079E1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6A7B39D2CB2CDC6004A1F17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6A7B39C2CB2CDC6004A1F17 /* Objective-C-RadioStations.app */,
+				D6A7B3B72CB2CDC8004A1F17 /* Objective-C-RadioStationsTests.xctest */,
+				D6A7B3C12CB2CDC8004A1F17 /* Objective-C-RadioStationsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6A7B39E2CB2CDC6004A1F17 /* Objective-C-RadioStations */ = {
+			isa = PBXGroup;
+			children = (
+				D6A0FD192CB3215C00C22F28 /* View */,
+				D6A0FD152CB31E7600C22F28 /* ViewModel */,
+				D6A0FD112CB2F1C500C22F28 /* Services */,
+				D6A0FD102CB2EF7700C22F28 /* Model */,
+				D6A7B39F2CB2CDC6004A1F17 /* AppDelegate.h */,
+				D6A7B3A02CB2CDC6004A1F17 /* AppDelegate.m */,
+				D6A7B3A22CB2CDC6004A1F17 /* SceneDelegate.h */,
+				D6A7B3A32CB2CDC6004A1F17 /* SceneDelegate.m */,
+				D6A7B3A82CB2CDC6004A1F17 /* Main.storyboard */,
+				D6A7B3AB2CB2CDC8004A1F17 /* Assets.xcassets */,
+				D6A7B3AD2CB2CDC8004A1F17 /* LaunchScreen.storyboard */,
+				D6A7B3B02CB2CDC8004A1F17 /* Info.plist */,
+				D6A7B3B12CB2CDC8004A1F17 /* main.m */,
+			);
+			path = "Objective-C-RadioStations";
+			sourceTree = "<group>";
+		};
+		D6A7B3BA2CB2CDC8004A1F17 /* Objective-C-RadioStationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6A7B3BB2CB2CDC8004A1F17 /* Objective_C_RadioStationsTests.m */,
+			);
+			path = "Objective-C-RadioStationsTests";
+			sourceTree = "<group>";
+		};
+		D6A7B3C42CB2CDC8004A1F17 /* Objective-C-RadioStationsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6A7B3C52CB2CDC8004A1F17 /* Objective_C_RadioStationsUITests.m */,
+				D6A7B3C72CB2CDC8004A1F17 /* Objective_C_RadioStationsUITestsLaunchTests.m */,
+			);
+			path = "Objective-C-RadioStationsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6A7B39B2CB2CDC6004A1F17 /* Objective-C-RadioStations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6A7B3CB2CB2CDC8004A1F17 /* Build configuration list for PBXNativeTarget "Objective-C-RadioStations" */;
+			buildPhases = (
+				DECEA8F5C784E708DE051782 /* [CP] Check Pods Manifest.lock */,
+				D6A7B3982CB2CDC6004A1F17 /* Sources */,
+				D6A7B3992CB2CDC6004A1F17 /* Frameworks */,
+				D6A7B39A2CB2CDC6004A1F17 /* Resources */,
+				23482BF3ABBB7B9A5EFC55F2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Objective-C-RadioStations";
+			productName = "Objective-C-RadioStations";
+			productReference = D6A7B39C2CB2CDC6004A1F17 /* Objective-C-RadioStations.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6A7B3B62CB2CDC8004A1F17 /* Objective-C-RadioStationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6A7B3CE2CB2CDC8004A1F17 /* Build configuration list for PBXNativeTarget "Objective-C-RadioStationsTests" */;
+			buildPhases = (
+				7A2E41F68C1563A4F17420DF /* [CP] Check Pods Manifest.lock */,
+				D6A7B3B32CB2CDC8004A1F17 /* Sources */,
+				D6A7B3B42CB2CDC8004A1F17 /* Frameworks */,
+				D6A7B3B52CB2CDC8004A1F17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6A7B3B92CB2CDC8004A1F17 /* PBXTargetDependency */,
+			);
+			name = "Objective-C-RadioStationsTests";
+			productName = "Objective-C-RadioStationsTests";
+			productReference = D6A7B3B72CB2CDC8004A1F17 /* Objective-C-RadioStationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6A7B3C02CB2CDC8004A1F17 /* Objective-C-RadioStationsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6A7B3D12CB2CDC8004A1F17 /* Build configuration list for PBXNativeTarget "Objective-C-RadioStationsUITests" */;
+			buildPhases = (
+				258C6014625307E867F47BE1 /* [CP] Check Pods Manifest.lock */,
+				D6A7B3BD2CB2CDC8004A1F17 /* Sources */,
+				D6A7B3BE2CB2CDC8004A1F17 /* Frameworks */,
+				D6A7B3BF2CB2CDC8004A1F17 /* Resources */,
+				233159A5E84B4D82D8F602E4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6A7B3C32CB2CDC8004A1F17 /* PBXTargetDependency */,
+			);
+			name = "Objective-C-RadioStationsUITests";
+			productName = "Objective-C-RadioStationsUITests";
+			productReference = D6A7B3C12CB2CDC8004A1F17 /* Objective-C-RadioStationsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6A7B3942CB2CDC6004A1F17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D6A7B39B2CB2CDC6004A1F17 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D6A7B3B62CB2CDC8004A1F17 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D6A7B39B2CB2CDC6004A1F17;
+					};
+					D6A7B3C02CB2CDC8004A1F17 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D6A7B39B2CB2CDC6004A1F17;
+					};
+				};
+			};
+			buildConfigurationList = D6A7B3972CB2CDC6004A1F17 /* Build configuration list for PBXProject "Objective-C-RadioStations" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6A7B3932CB2CDC6004A1F17;
+			productRefGroup = D6A7B39D2CB2CDC6004A1F17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6A7B39B2CB2CDC6004A1F17 /* Objective-C-RadioStations */,
+				D6A7B3B62CB2CDC8004A1F17 /* Objective-C-RadioStationsTests */,
+				D6A7B3C02CB2CDC8004A1F17 /* Objective-C-RadioStationsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6A7B39A2CB2CDC6004A1F17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6341EB52CB40732006E3E5A /* ViewCell.xib in Resources */,
+				D6A7B3AC2CB2CDC8004A1F17 /* Assets.xcassets in Resources */,
+				D6A7B3AF2CB2CDC8004A1F17 /* Base in Resources */,
+				D6A7B3AA2CB2CDC6004A1F17 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6A7B3B52CB2CDC8004A1F17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6A7B3BF2CB2CDC8004A1F17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		233159A5E84B4D82D8F602E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Objective-C-RadioStations-Objective-C-RadioStationsUITests/Pods-Objective-C-RadioStations-Objective-C-RadioStationsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Objective-C-RadioStations-Objective-C-RadioStationsUITests/Pods-Objective-C-RadioStations-Objective-C-RadioStationsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Objective-C-RadioStations-Objective-C-RadioStationsUITests/Pods-Objective-C-RadioStations-Objective-C-RadioStationsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23482BF3ABBB7B9A5EFC55F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Objective-C-RadioStations/Pods-Objective-C-RadioStations-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Objective-C-RadioStations/Pods-Objective-C-RadioStations-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Objective-C-RadioStations/Pods-Objective-C-RadioStations-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		258C6014625307E867F47BE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Objective-C-RadioStations-Objective-C-RadioStationsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A2E41F68C1563A4F17420DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Objective-C-RadioStationsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DECEA8F5C784E708DE051782 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Objective-C-RadioStations-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6A7B3982CB2CDC6004A1F17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6341EB42CB40732006E3E5A /* ViewCell.m in Sources */,
+				D6A7B3A72CB2CDC6004A1F17 /* ViewController.m in Sources */,
+				D6A7B3A12CB2CDC6004A1F17 /* AppDelegate.m in Sources */,
+				D6A7B3B22CB2CDC8004A1F17 /* main.m in Sources */,
+				D6A0FD0F2CB2EF7300C22F28 /* RadioStationModel.m in Sources */,
+				D6A7B3A42CB2CDC6004A1F17 /* SceneDelegate.m in Sources */,
+				D6A0FD142CB2F9F200C22F28 /* Services.m in Sources */,
+				D6A0FD182CB3204D00C22F28 /* ViewModel.m in Sources */,
+				D6341EB82CB409D7006E3E5A /* PlayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6A7B3B32CB2CDC8004A1F17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6A7B3BC2CB2CDC8004A1F17 /* Objective_C_RadioStationsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6A7B3BD2CB2CDC8004A1F17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6A7B3C62CB2CDC8004A1F17 /* Objective_C_RadioStationsUITests.m in Sources */,
+				D6A7B3C82CB2CDC8004A1F17 /* Objective_C_RadioStationsUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6A7B3B92CB2CDC8004A1F17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6A7B39B2CB2CDC6004A1F17 /* Objective-C-RadioStations */;
+			targetProxy = D6A7B3B82CB2CDC8004A1F17 /* PBXContainerItemProxy */;
+		};
+		D6A7B3C32CB2CDC8004A1F17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6A7B39B2CB2CDC6004A1F17 /* Objective-C-RadioStations */;
+			targetProxy = D6A7B3C22CB2CDC8004A1F17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6A7B3A82CB2CDC6004A1F17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6A7B3A92CB2CDC6004A1F17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6A7B3AD2CB2CDC8004A1F17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6A7B3AE2CB2CDC8004A1F17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6A7B3C92CB2CDC8004A1F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6A7B3CA2CB2CDC8004A1F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6A7B3CC2CB2CDC8004A1F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F09DA5185015449AA6B4FEAD /* Pods-Objective-C-RadioStations.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Objective-C-RadioStations/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-RadioStations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6A7B3CD2CB2CDC8004A1F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B24EC061651AC8F5CBF0ABCF /* Pods-Objective-C-RadioStations.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Objective-C-RadioStations/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-RadioStations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6A7B3CF2CB2CDC8004A1F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B6CF1EECB57E93F7BC0403B /* Pods-Objective-C-RadioStationsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-RadioStationsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Objective-C-RadioStations.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Objective-C-RadioStations";
+			};
+			name = Debug;
+		};
+		D6A7B3D02CB2CDC8004A1F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 445C8774D392E1354C4DDFC8 /* Pods-Objective-C-RadioStationsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-RadioStationsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Objective-C-RadioStations.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Objective-C-RadioStations";
+			};
+			name = Release;
+		};
+		D6A7B3D22CB2CDC8004A1F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB234A582EF8E7C87224A2C3 /* Pods-Objective-C-RadioStations-Objective-C-RadioStationsUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-RadioStationsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Objective-C-RadioStations";
+			};
+			name = Debug;
+		};
+		D6A7B3D32CB2CDC8004A1F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8D037BB74568E6926CF969C /* Pods-Objective-C-RadioStations-Objective-C-RadioStationsUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-RadioStationsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Objective-C-RadioStations";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6A7B3972CB2CDC6004A1F17 /* Build configuration list for PBXProject "Objective-C-RadioStations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6A7B3C92CB2CDC8004A1F17 /* Debug */,
+				D6A7B3CA2CB2CDC8004A1F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6A7B3CB2CB2CDC8004A1F17 /* Build configuration list for PBXNativeTarget "Objective-C-RadioStations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6A7B3CC2CB2CDC8004A1F17 /* Debug */,
+				D6A7B3CD2CB2CDC8004A1F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6A7B3CE2CB2CDC8004A1F17 /* Build configuration list for PBXNativeTarget "Objective-C-RadioStationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6A7B3CF2CB2CDC8004A1F17 /* Debug */,
+				D6A7B3D02CB2CDC8004A1F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6A7B3D12CB2CDC8004A1F17 /* Build configuration list for PBXNativeTarget "Objective-C-RadioStationsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6A7B3D22CB2CDC8004A1F17 /* Debug */,
+				D6A7B3D32CB2CDC8004A1F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6A7B3942CB2CDC6004A1F17 /* Project object */;
+}

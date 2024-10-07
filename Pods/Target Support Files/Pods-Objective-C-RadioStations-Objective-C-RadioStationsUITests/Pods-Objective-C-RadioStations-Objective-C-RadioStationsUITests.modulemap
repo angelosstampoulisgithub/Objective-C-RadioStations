@@ -1,0 +1,6 @@
+framework module Pods_Objective_C_RadioStations_Objective_C_RadioStationsUITests {
+  umbrella header "Pods-Objective-C-RadioStations-Objective-C-RadioStationsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
