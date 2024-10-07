@@ -13,5 +13,6 @@
 @property ViewModel *viewModel;
 @property NSMutableArray *dictionary;
 @property (weak, nonatomic) IBOutlet UITableView *taableView;
+- (UIImage *)resizeImage:(UIImage *)image;
 @end
 

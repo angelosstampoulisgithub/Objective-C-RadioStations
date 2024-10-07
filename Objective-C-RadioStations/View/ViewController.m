@@ -23,12 +23,28 @@
     [[self navigationItem] setTitle:@"List Radio Stations"];
 
 }
+- (UIImage *)resizeImage:(UIImage *)image {
+    UIGraphicsBeginImageContextWithOptions(CGSizeMake(100, 95), NO, 0.0);
+    
+    [image drawInRect:CGRectMake(0, 0, 100, 95)];
+    
+    UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
+    
+    UIGraphicsEndImageContext();
+    
+    return newImage;
+}
 -(void) loadData{
     dispatch_group_t group = dispatch_group_create();
     dispatch_group_enter(group);
     [self->_viewModel makeRequest:^(NSMutableArray * _Nonnull dict) {
-        [self->_dictionary addObjectsFromArray:dict];
-        
+        if (self->_dictionary.count>0){
+            [self->_dictionary removeAllObjects];
+            [self->_dictionary addObjectsFromArray:dict];
+            
+        }else{
+            [self->_dictionary addObjectsFromArray:dict];
+        }
         dispatch_group_leave(group);
     }];
     
@@ -62,7 +78,10 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     ViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
     NSMutableDictionary *dict = [self->_dictionary objectAtIndex:indexPath.row];
-    [[cell imageView] setImage:[UIImage imageNamed:@"oldradio"]];
+    [[cell imageView] sd_setImageWithURL:[NSURL URLWithString:[dict valueForKey:@"logo"]]
+                 placeholderImage:[UIImage imageNamed:@"oldradio"]];
+    UIImage *image = [self resizeImage:cell.imageView.image];
+    [[cell imageView] setImage:image];
     [[cell lblRadioStationName] setText:[dict valueForKey:@"title"]];
    
     return cell;
